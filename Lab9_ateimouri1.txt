@@ -1,4 +1,3 @@
-
 PLAY [configure an OPS445 Centos VM machine] ***********************************
 
 TASK [Gathering Facts] *********************************************************
@@ -26,16 +25,15 @@ TASK [set authorized key taken from file] **************************************
 ok: [vmlab]
 
 TASK [setup a directory structure using a loop] ********************************
-ok: [vmlab] => (item=1)
-ok: [vmlab] => (item=2)
-ok: [vmlab] => (item=3)
-ok: [vmlab] => (item=4)
-ok: [vmlab] => (item=5)
-ok: [vmlab] => (item=6)
-ok: [vmlab] => (item=7)
-ok: [vmlab] => (item=8)
-ok: [vmlab] => (item=9)
+changed: [vmlab] => (item=1)
+changed: [vmlab] => (item=2)
+changed: [vmlab] => (item=3)
+changed: [vmlab] => (item=4)
+changed: [vmlab] => (item=5)
+changed: [vmlab] => (item=6)
+changed: [vmlab] => (item=7)
+changed: [vmlab] => (item=8)
+changed: [vmlab] => (item=9)
 
 PLAY RECAP *********************************************************************
-vmlab                      : ok=9    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
-
+vmlab                      : ok=9    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0  
