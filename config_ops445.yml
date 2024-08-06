@@ -45,7 +45,7 @@
 
     - name:  setup a directory structure using a loop
       file:
-        path: "/home/ ateimouri1/ops445/lab{{item}}"
+        path: "/home/ateimouri1/ops445/lab{{item}}"
         state: directory
         owner:  ateimouri1
       loop: [1,2,3,4,5,6,7,8,9]
